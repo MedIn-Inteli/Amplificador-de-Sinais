@@ -18,7 +18,7 @@
 - <a href="https://www.linkedin.com/in/cecilslico">Cecília Lima Coelho</a>
 - <a href="https://www.linkedin.com/in/example6">Vinícius Rangel Marques dos Santos</a>
 - <a href="https://www.linkedin.com/in/eduardo-jesus-">Eduardo Jesus Tavares</a>
-- <a href="https://www.linkedin.com/in/caroline-paz">Caroline Moraes Paz</a>\
+- <a href="https://www.linkedin.com/in/caroline-paz">Caroline Moraes Paz</a>
 
 ## 📜 Descrição do Projeto
 
