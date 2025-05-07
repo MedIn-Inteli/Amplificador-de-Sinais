@@ -8,16 +8,21 @@
 
 <br>
 
-# Nome do Projeto
+# Amplificador de Sinais
 
 ## 👨‍💻 Integrantes:
-- <a href="https://www.linkedin.com/in/example1">Nome do Integrante 1</a>
-- <a href="https://www.linkedin.com/in/example2">Nome do Integrante 2</a>
-- <a href="https://www.linkedin.com/in/example3">Nome do Integrante 3</a>
+- <a href="https://www.linkedin.com/in/gustavo-dacosta">Gustavo Gonçalves da Costa</a>
+- <a href="https://www.linkedin.com/in/kethlenmartins">Kethlen Martins</a>
+- <a href="https://www.linkedin.com/in/rodrigo-lee">Rodrigo Hu Tchie Lee</a>
+- <a href="https://www.linkedin.com/in/carol-pascarelli">Carolina Pascarelli Alves</a>
+- <a href="https://www.linkedin.com/in/cecilslico">Cecília Lima Coelho</a>
+- <a href="https://www.linkedin.com/in/example6">Vinícius Rangel Marques dos Santos</a>
+- <a href="https://www.linkedin.com/in/eduardo-jesus-">Eduardo Jesus Tavares</a>
+- <a href="https://www.linkedin.com/in/caroline-paz">Caroline Moraes Paz</a>
 
 ## 📜 Descrição do Projeto
 
-Inclua aqui uma descrição detalhada do projeto. Explique o problema abordado, a solução proposta e os principais componentes do sistema (hardware e software). Inclua um [vídeo demonstrativo](#).
+Este projeto visa a criação e desenvolvimento de uma plataforma eletrônica programável, com foco na construção de um amplificador de sinais mioelétricos integrado em uma placa de circuito impresso (PCB). O dispositivo terá a capacidade de captar sinais elétricos gerados pela atividade muscular por meio de eletrodos, amplificá-los com alta precisão e permitir ajustes programáveis de ganho, garantindo flexibilidade para diferentes aplicações biomédicas.
 
 ## 📁 Estrutura de Pastas
 
@@ -39,19 +44,26 @@ template
 
 ## 🔧 Instalação
 
-Descreva aqui os pré-requisitos necessários (como IDEs ou dependências). Inclua as etapas para clonar o repositório, configurar o ambiente e executar o projeto. Especifique as versões das ferramentas utilizadas.
+####  Ferramentas para documentação
 
-Exemplo de comando:
+- **[Docusaurus](https://docusaurus.io/):** Tecnologia que permite transformar sua documentação em um site organizado e acessível, com desenvolvimento facilitado
+- **[Git](https://git-scm.com/) e [GitHub](https://github.com/):** O git será utilizado para versionamento do projeto, em conjunto com um repositório no github
+- **[Drive](https://www.google.com/drive/):** O drive será utilizado para armazenar materiais de estudo e de apoio para o desenvolvimento do projeto
 
-```bash
-# Clone o repositório
-$ git clone https://github.com/liga-biomedica/projeto-exemplo.git
+#### Ferramentas para organização
 
-# Navegue até a pasta do projeto
-$ cd projeto-exemplo/src
+- **[Docs](https://www.google.com/docs/about/)** Anotações no geral
+- **[Trello](https://trello.com/):** Cards para organização dos entregáveis de cada sprint
 
-$ python code.py
-```
+#### Ferramentas para desenvolvimento
+
+- **[KiCad](https://www.kicad.org/):** Ferramenta para desenhar e desenvolver Placas de Circuito Impresso
+- **[VSCode](https://code.visualstudio.com/) ou [Arduino IDE](https://www.arduino.cc/en/software):** Ferramenta para programar o microcontrolador do projeto
+
+#### Tecnologias
+
+- **[C++](https://isocpp.org/):** Linguagem de programação que será utilizada para o desenvolvimento do firmware do microcontrolador
+- **[Arduino Framework](https://www.arduino.cc/):** Framework de C++, que pode ser utilizado para facilitar o desenvolvimento do firmware
 
 ## 📋 Licença
 
