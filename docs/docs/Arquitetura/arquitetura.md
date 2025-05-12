@@ -1,6 +1,6 @@
 # Arquitetura Inicial
 
-A arquitetura do projeto, consiste em um forma de documentar e demonstrar quais são as técnicas e padrões utilizados para desenvolver uma aplicação, a proposta de arquitetura pode ser utilizada como planejamento do que deve ser desenvolvido para garantir o funcionamento do projeto, levando em consideração diversos fatores como regras de negócios e restrições técnicas, uma vez que ela descreve todos os componentes que fazem parte do sistema.
+A arquitetura do projeto, consiste em uma forma de documentar e demonstrar quais são as técnicas e padrões utilizados para desenvolver uma aplicação, a proposta de arquitetura pode ser utilizada como planejamento do que deve ser desenvolvido para garantir o funcionamento do projeto, levando em consideração diversos fatores como regras de negócios e restrições técnicas, uma vez que ela descreve todos os componentes que fazem parte do sistema.
 
 ## Diagrama de arquitetura
 
@@ -8,7 +8,7 @@ A arquitetura do projeto, consiste em um forma de documentar e demonstrar quais 
 
 <div style={{textAlign: 'center'}}>
 
-![Descrição da Imagem](/img/Arquitetura/diagrama_arquitetura_inicial.png)
+![Diagrama de blocos da arquitetura inicial](/img/Arquitetura/diagrama_arquitetura_inicial.png)
 
 </div>
 
@@ -19,13 +19,13 @@ A arquitetura do projeto, consiste em um forma de documentar e demonstrar quais 
 - **IN:** Representa o sinal de entrada do circuito
 - **OUT:** Representa o sinal de saída do circuito
 
-#### Circuito de captura e limpeza de sinal
+### Circuito de captura e limpeza de sinal
 
 - **Entrada do sinal mioelétrico original:** O sinal mioelétrico de entrada. Neste momento o sinal está inalterado e exatamente igual ao momento em que ele foi captado.
 
 - **Circuito de filtros do sinal mioelétrico original:** Este circuito tem a função de filtrar o sinal original, uma vez que, ao captar o sinal, podem ocorrer interferências que geram ruídos no sinal, os filtros possuem a capacidade de remover, ou ao menos diminuir, o ruído do sinal, visando enviar um sinal limpo e claro.
 
-#### Circuito de amplificação do sinal
+### Circuito de amplificação do sinal
 
 - **Circuito de pré amplificação de baixos ruídos:** Este circuito é responsável por amplificar o sinal mioelétrico captado inicialmente, garantindo que o ganho seja suficiente para posterior processamento, enquanto minimiza a introdução de ruídos adicionais. Ele é projetado para preservar a integridade do sinal original.
 
@@ -33,13 +33,13 @@ A arquitetura do projeto, consiste em um forma de documentar e demonstrar quais 
 
 - **Circuito de filtragem Off Set/DC:** Este circuito remove componentes de corrente contínua (DC) ou offsets indesejados presentes no sinal amplificado. Ele garante que o sinal final esteja em um nível de referência adequado, evitando erros ou a transmissão inadequada de sinais para as próximas etapas.
 
-#### Circuito de saída e transmissão do sinal
+### Circuito de saída e transmissão do sinal
 
 - **Circuito de filtros do sinal mioelétrico amplificado:** Este circuito tem a função de filtrar o sinal mioelétrico amplificado, uma vez que, ao alterar o sinal, podem ocorrer interferências que geram ruídos no sinal, os filtros possuem a capacidade de remover, ou ao menos diminuir, o ruído do sinal, visando torná-lo limpo e claro.
 
 - **Saída do sinal mioelétrico amplificado:** Esta etapa representa o ponto final do circuito, onde o sinal mioelétrico amplificado e filtrado é disponibilizado para ser utilizado em aplicações externas, como dispositivos de análise, sistemas de controle ou interfaces de comunicação, assim como o sinal amplificado é passado para o microcontrolador.
 
-#### Microcontrolador (ESP-32)
+### Microcontrolador (ESP-32)
 
 - **Recebimento do sinal mioelétrico original:** O microcontrolador recebe o sinal mioelétrico captado diretamente do circuito de entrada, permitindo que ele seja processado ou armazenado conforme necessário.
 
