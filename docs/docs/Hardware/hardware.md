@@ -21,7 +21,7 @@ Esta seção descreve os componentes de hardware utilizados no projeto e como el
 
 Adicione o diagrama elétrico completo mostrando as conexões entre os componentes. Utilize ferramentas como **Fritzing** ou **KiCad** para criar esquemas visuais.
 
-![Diagrama do Circuito](../assets/circuit_diagram.png)
+
 
 ---
 
