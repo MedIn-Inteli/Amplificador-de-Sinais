@@ -35,6 +35,15 @@ const FeatureList = [
   },
 ];
 
+/**
+ * Renders a single feature item with an SVG image, title, and description in a styled column layout.
+ *
+ * @param {Object} props
+ * @param {React.ComponentType} props.Svg - The SVG React component representing the feature image.
+ * @param {string} props.title - The title of the feature.
+ * @param {React.ReactNode} props.description - The description content for the feature.
+ * @returns {JSX.Element} The rendered feature component.
+ */
 function Feature({Svg, title, description}) {
   return (
     <div className={clsx('col col--4')}>
@@ -49,6 +58,13 @@ function Feature({Svg, title, description}) {
   );
 }
 
+/**
+ * Renders the homepage features section with a list of feature items.
+ *
+ * Displays each feature from the predefined list in a responsive layout, including an SVG image, title, and description.
+ *
+ * @returns {JSX.Element} The rendered features section for the homepage.
+ */
 export default function HomepageFeatures() {
   return (
     <section className={styles.features}>
