@@ -134,50 +134,7 @@ SHIELD-EKG-EMG – Arduino Shield for Biopotential Measurements. Projeto de hard
 Disponível em: https://www.olimex.com/Products/Duino/Shields/SHIELD-EKG-EMG/open-source-hardware. Acesso em: 20 maio 2025.
 
 
-## 4. OpenBCI
-### Descrição:
-Plataforma open source de aquisição de sinais biopotenciais (EMG, EEG, ECG), com foco em aplicações de interface cérebro-computador.
-
-### Aplicação da Tecnologia:
-- Utiliza o **ADS1299 da Texas Instruments**, que integra amplificadores de instrumentação e conversores A/D de 24 bits.
-- Oferece **ganho programável via SPI** com comandos digitais.
-- Compatível com software open source para visualização e análise em tempo real.
-- Interface com computador via **USB ou Bluetooth**.
-
-### Nível de Complexidade: Alto.
-
-### Reaproveitamento para o Seu Projeto:
-
-#### ✔ Uso do CI ADS1299:
-- Circuito integrado específico para biossinais, com **amplificação de instrumentação interna** e **ganho programável digitalmente**.
-
-️➡ **Aplicação direta:** Se sua plataforma exigir múltiplos canais com controle de ganho por software, o ADS1299 é uma solução completa e profissional.
-
-#### ✔ Conversão A/D de alta resolução:
-- Possui resolução de **24 bits**, adequada para detecção de microvariações em sinais mioelétricos.
-
-➡ **Aplicação relevante:** Garante precisão elevada, útil em ambientes clínicos ou aplicações que exigem alto rigor.
-
-#### ✔ Layout multicamada e proteção de ruído:
-- PCB com separação de trilhas analógicas e digitais, aterramento adequado e blindagem.
-
-➡ **Aplicação direta:** Excelente referência para seu projeto de layout de PCB, garantindo integridade dos sinais captados.
-
-#### ✔ Comunicação com computador via USB/Bluetooth:
-- Sistema modular de aquisição e envio para software de análise.
-
-️➡ **Aplicação futura:** Base para implementar modo de visualização externa dos sinais ou integração com sistemas de prontuário eletrônico.
-
-#### ️✔ Softwares e APIs open source:
-- Interface gráfica (GUI), APIs para Python, processamento em tempo real.
-
-➡ **Aplicação direta:** Você pode reutilizar ou adaptar essas interfaces para testes e calibração do ganho programável no seu projeto.
-
-OpenBCI: Open Source Biosensing Tools. Plataforma para aquisição de sinais biomédicos.
-Disponível em: https://openbci.com/. Acesso em: 20 maio 2025.
-
-
-## 5. EMG Armband – GitHub
+## 4. EMG Armband – GitHub
 ### Descrição:
 Projeto de uma pulseira EMG que capta sinais musculares para controle de dispositivos, utilizando aprendizado de máquina para interpretação dos dados.
 
