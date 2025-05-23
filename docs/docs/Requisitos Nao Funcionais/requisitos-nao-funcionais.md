@@ -3,7 +3,7 @@ title: Requisitos Não Funcionais
 ---
 
 
-&emsp; Requisitos não funcionais são especificações que descrevem como um sistema deve se comportar em relação a desempenho, segirança, confiabilidade e usabilidade. Eles complementam os requisitos funcionais, garantindo que suas funções sejam executadas de forma eficiente, segura e adequada. 
+&emsp; Requisitos não funcionais são especificações que descrevem como um sistema deve se comportar em relação a desempenho, segurança, confiabilidade e usabilidade. Eles complementam os requisitos funcionais, garantindo que suas funções sejam executadas de forma eficiente, segura e adequada. 
 
 &emsp;  No contexto do projeto do Amplificador de Sinais, estes requisitos são essenciais para servir como referência para o desenvolvimento do projeto, garantindo que todas as funcionalidades apresentadas ocorram de forma otimizada e que o projeto final apresente resultados de qualidade.
 
@@ -41,13 +41,13 @@ title: Requisitos Não Funcionais
 - O circuito deve possuir filtros para diminuir interferências da rede elétrica e sinais fracos.
 
 #### RNF05 – Segurança elétrica e precisão na amplificação
-- A placa deve operar com segurança, implementado uma proteção contra sobrecorrente e sobretensão.
+- A placa deve operar com segurança, implementando uma proteção contra sobrecorrente e sobretensão.
 - A amplificação deve preservar a integridade do sinal original com o mínimo de distorção.
 
 #### RNF06 – Integração futura com dashboards de visualização
-- A arquitetura do sistema deve prever a possibilidade de transmissão de dads para sistemas externos.
+- A arquitetura do sistema deve prever a possibilidade de transmissão de dados para sistemas externos.
 - É necessário garantir que os dados amplificados possam ser visualizados em tempo real em um dashboard simples.
 
 ---
 
-&emsp; Cumprir estes requisitos é essencial para a entrega de um projeto funcional e otimizado, que não apenas atenda as demandas do projeto atual mas que também consifa ser expandido no futuro. 
+&emsp; Cumprir estes requisitos é essencial para a entrega de um projeto funcional e otimizado, que não apenas atenda as demandas do projeto atual mas que também consiga ser expandido no futuro. 
