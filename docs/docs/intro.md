@@ -18,7 +18,7 @@ sidebar_position: 1
 
 &emsp; Além do hardware, o projeto oferece flexibilidade de configuração via software, permitindo ajustes nos parâmetros do sistema para se adaptar a diferentes contextos de uso. Essa característica programável é essencial para tornar o projeto versátil, com potencial de personalização para diversas aplicações em engenharia biomédica.
 
-&emsp; A seguir esta o link para o [Termo de Abertura do Projeto](../../assets/TAPI.pdf) completo.
+&emsp; A seguir está o link para o [Termo de Abertura do Projeto](../../assets/TAPI.pdf) completo.
 
 ## Aplicações
 
